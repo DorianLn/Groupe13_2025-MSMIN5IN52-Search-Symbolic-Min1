@@ -1,0 +1,42 @@
+# Fichier de dépendances globales pour le projet
+# Usage: `pip install -r requirements.txt`
+
+# Solveur CSP
+ortools>=9.8.0
+
+# Machine learning / LLM (optionnel selon usage)
+anthropic>=0.18.0
+google-genai>=0.2.0
+
+# Calcul numérique et visualisation
+numpy>=1.24.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+networkx>=3.1
+seaborn>=0.12.2
+
+# Notebook / utilitaires
+nbformat>=5.8.0
+
+# API / backend (optionnel)
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Utilitaires
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+
+# CLI / devtools (optionnel)
+click>=8.1.0
+rich>=13.0.0
+
+# Tests / CI
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+
+# Formatting / linting (développement)
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
